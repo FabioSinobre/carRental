@@ -6,7 +6,7 @@ public class CarRental {
 	private Date start;
 	private Date finish;
 	
-	private Vehicle vehicle;//relação 1 para 1
+	private Vehicle vehicle;//relação 1 para 1 associações
 	private Invoice invoice;//relação 0 para 1
 	
 	public CarRental() {
