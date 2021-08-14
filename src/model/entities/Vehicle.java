@@ -1,6 +1,6 @@
 package model.entities;
 
-public class Vehicle {
+public final class Vehicle {
 	private String model;
 	
 	public Vehicle() {

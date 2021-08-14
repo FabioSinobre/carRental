@@ -3,11 +3,11 @@ package model.service;
 import model.entities.CarRental;
 import model.entities.Invoice;
 
-public class RentalService {
+public final class RentalService {
 	private Double pricePerDay;
 	private Double pricePerHour;
 	
-	private TaxService taxService;
+	private TaxService taxService;//associação 
 	
 	public RentalService() {
 	}
